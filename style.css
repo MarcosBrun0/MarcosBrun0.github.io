@@ -1,73 +1,86 @@
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  /* Estilos gerais */
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
 
-  }
-
-  img{
-    height: 200px;
-    width: 200px;
-    text-align: center;
-  }
-  
-  h1, h2, h3 {
-    color: #333;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /* Estilos do cabeçalho */
-  header {
-    background-color: #f2f2f2;
-    padding: 1px;
-    text-align: center;
-  }
-  
-  /* Estilos da navegação */
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-  }
-  
-  nav ul li a:hover {
-    background-color: #666;
-  }
-  
-  /* Estilos das seções */
-  section {
-    padding: 40px;
-  }
-
-  .Projetos{
-    align-items: center;
-    display:flex;
-   
-    gap: 20px;
-    
     }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-  }
-  
+
+    img{
+      max-width: 100px;
+      flex-basis: 200px; /* Ajuste o valor conforme necessário */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    h1, h2, h3 {
+      color: #333;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    /* Estilos do cabeçalho */
+    header {
+      background-color: #f2f2f2;
+      padding: 1px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    /* Estilos da navegação */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+    }
+    
+    nav ul li a:hover {
+      background-color: #666;
+    }
+    
+    /* Estilos das seções */
+    section {
+      padding: 40px;
+    }
+
+
+    .contato_1{
+
+      align-items: center;
+      display:flex;
+      gap: 10px;
+    }
+
+
+    .Projetos{
+      align-items: center;
+      display:flex;
+    
+      gap: 20px;
+      
+      }
+    
+    /* Estilos do rodapé */
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    
