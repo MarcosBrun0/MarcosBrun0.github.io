@@ -13,11 +13,13 @@ body{
     font-size: medium;
     min-width: 100vh;
     padding: 100px;
-    background: url('pexels-stephan-seeber-1054218.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat ;
-}
+      height: 100vh;
+      width: 100%;
+      background-image: url('pexels-stephan-seeber-1054218.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat ;
+    }
 
 section{
   background-color: #524c4c; /* Background color for the sections */
@@ -115,12 +117,13 @@ margin-left: 40px;
     /* Estilos do rodapé */
     footer {
       bottom: 0;
-      position: absolute;
+      position: relative;
       background-color: #ffff;
       padding: 15px;
       margin-bottom: 10px;
       text-align: center;
-      width: 100vmax;
+      width: 100%;
       bottom: 0;
+      border-radius: 10px;
     }
     
