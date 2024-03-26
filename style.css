@@ -15,7 +15,7 @@ body{
     padding: 100px;
       height: 100vh;
       width: 100%;
-      background-image: url('pexels-stephan-seeber-1054218.jpeg');
+      background-image: url('imgs/pexels-stephan-seeber-1054218.jpeg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat ;
@@ -25,6 +25,8 @@ section{
   background-color: #524c4c; /* Background color for the sections */
     padding: 20px; /* Adjust as needed */
     margin: 10px; /* Adjust as needed */
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 10px;
 } 
 
@@ -39,7 +41,9 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+  
 }
+
 
 .logo{
     font-size: 32px;
@@ -55,6 +59,7 @@ color: #fff;
 font-weight: 500;
 text-decoration: none;
 margin-left: 40px;
+
 }
 
 
@@ -81,7 +86,8 @@ margin-left: 40px;
       flex-basis: 200px; /* Ajuste o valor conforme necessário */
       height: auto;
       display: block;
-      margin: 0 auto;
+      margin:  10px;
+      
     }
     
     h1, h2, h3 {
@@ -116,14 +122,15 @@ margin-left: 40px;
     
     /* Estilos do rodapé */
     footer {
-      bottom: 0;
+  
       position: relative;
+      bottom: -10%;
       background-color: #ffff;
       padding: 15px;
       margin-bottom: 10px;
       text-align: center;
       width: 100%;
-      bottom: 0;
       border-radius: 10px;
+      margin-right: 40px;
     }
     
