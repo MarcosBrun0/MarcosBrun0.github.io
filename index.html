@@ -1,74 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  </head>
+  <header class="header">
+    <a href="#" class="logo">Marcos Bruno</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <body>
-  
+  <section>
+    <h1>Quote</h1>
+    <p>"Busque o que é significativo, não o que é conveniente." - Jordan Peterson</p>
+  </section>
 
-
-    
-    <header class="header"> <a href="#" class="logo">Marcos Bruno</a>
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">Projects</a>
-        <a href="contact.html">Contact</a>
-
-      </nav>
-    </header>
-
-    <section>
-      <h1 id="About">About me.      </h1>
-      <p>I'm a student looking for knowledge.
-        <br>I want to be better every day, being grateful for today. Graduating in computer science, I seek to learn and improve myself, both technically and when dealing with people, I am very calm and diligent.
-        <br> Currently doing some projects in Python and looking for opportunities to enter the job market. Participated in an extension project in which I taught robotics and arduino classes for teenagers and young people</p>
-
-    </section>
-
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>Mbrunocampos20@gmail.com</p>
-      <div class="contato_1">
-        <a href="https://github.com/MarcosBrun0"><img src="imgs/25231.png" alt="github" style="width:42px;height:42px;"></a>
-        <a href="https://www.linkedin.com/in/marcos-bruno-campos-856857202/"> <img src="imgs/174857.png" alt="linkedin"
-            style="width:42px;height:42px;"></a>
-
-      </div>
-    </section>
-
-    
-   
-    </section>
-
-    <section id="projetos">
-      <h2>Projetos</h2>
-
-      <div>
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projetos-container">
+      <div class="projeto">
+        <a href="https://github.com/MarcosBrun0/Python-Studies/blob/main/day28-pomodoro/main.py">
+        <img src="imgs/pomodoro.png" alt="Pomodoro">
+      </a>
         <h3>Pomodoro</h3>
-        <h3>Password generator</h3>
-        
-      
-        
-
-        
-
-        <!-- Adicione mais projetos conforme necessário -->
-    </section>
-
+        <p>Um temporizador para aumentar a produtividade de trabalho e estudo.</p>
   
+      </div>
+      <div class="projeto">
+        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main">
+        <img src="imgs/PasswordManager.png" alt="Gerador e Gerenciador de Senhas">
+      </a>
+        <h3>Gerador e Gerenciador de Senhas</h3>
+        <p>Ferramenta para gerar e gerenciar senhas seguras.</p>
+      </div>
+      <div class="projeto">
+        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main/day53-DataEntryJobAutomation">
+        <img src="imgs/Dataentry.png" alt="Automação de Entrada de Dados com Python">
+      </a>
+        <h3>Automação de Entrada de Dados com Python</h3>
+        <p>Automatização de dados usando Python, Selenium, Bs4, e planilhas.</p>
+      </div>
+      <div class="projeto">
+        <a href="https://github.com/MarcosBrun0/Arduino/tree/main">
+        <img src="imgs/buttons_and_buzzer.jpg" alt="Códigos para Arduino">
+      </a>
+        <h3>Códigos para Arduino</h3>
+        <p>Projetos e códigos para desenvolvimento com Arduino.</p>
+      </div>
+      <!-- Adicione mais projetos conforme necessário -->
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; 2023 MarcosBruno. Todos os direitos reservados.</p>
-    </footer>
-  </body>
-
+  <footer>
+    <p>&copy; 2023 Marcos Bruno. Todos os direitos reservados.</p>
+  </footer>
+</body>
 </html>
