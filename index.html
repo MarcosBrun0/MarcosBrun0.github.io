@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio MB</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <nav class="header">
     <a href="#" class="logo">Marcos Bruno</a>
@@ -16,63 +18,78 @@
       <a href="contact.html">Contato</a>
     </div>
   </nav>
-  
+
   <!-- Resto do seu HTML -->
-  
+
   </header>
 
-  <section>
-    <h1>Quote</h1>
-    <p>"Busque o que é significativo, não o que é conveniente." - Jordan Peterson</p>
-  </section>
 
   <section id="projetos">
     <h2>Projetos</h2>
     <div class="projetos-container">
+
+      
       <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Python-Studies/blob/main/day28-pomodoro/main.py">
-        <img src="imgs/pomodoro.png" alt="Pomodoro">
-      </a>
-        <h3>Pomodoro</h3>
-        <p>Um temporizador para aumentar a produtividade de trabalho e estudo.</p>
-  
-      </div>
+        <a href="https://github.com/MarcosBrun0/Python-Studies/blob/main/day28-pomodoro/main.py" class="proj">
+          <img src="imgs/pomodoro.png" alt="Pomodoro">
+          
+          <h3>Pomodoro</h3>
+          <p>Um temporizador para aumentar a produtividade de trabalho e estudo.</p>
+        </a>
+        </div>
+        
+
+
+        <div class="projeto">
+        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main" class="proj">
+          <img src="imgs/PasswordManager.png" alt="Gerador e Gerenciador de Senhas">
+
+          <h3>Gerador e Gerenciador de Senhas</h3>
+          <p>Ferramenta para gerar e gerenciar senhas seguras.</p>
+        </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main/day53-DataEntryJobAutomation" class="proj">
+          <img src="imgs/Dataentry.png" alt="Automação de Entrada de Dados com Python">
+          <h3>Automação de Entrada de Dados com Python</h3>
+          <p>Automatização de dados usando Python, Selenium, Bs4, e planilhas.</p>
+        </a>
+        </div>
+
+
+
       <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main">
-        <img src="imgs/PasswordManager.png" alt="Gerador e Gerenciador de Senhas">
-      </a>
-        <h3>Gerador e Gerenciador de Senhas</h3>
-        <p>Ferramenta para gerar e gerenciar senhas seguras.</p>
-      </div>
-      <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main/day53-DataEntryJobAutomation">
-        <img src="imgs/Dataentry.png" alt="Automação de Entrada de Dados com Python">
-      </a>
-        <h3>Automação de Entrada de Dados com Python</h3>
-        <p>Automatização de dados usando Python, Selenium, Bs4, e planilhas.</p>
-      </div>
-      <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Arduino/tree/main">
+        <a href="https://github.com/MarcosBrun0/Arduino/tree/main" class="proj">
         <img src="imgs/buttons_and_buzzer.jpg" alt="Códigos para Arduino">
-      </a>
-        <h3>Códigos para Arduino</h3>
-        <p>Projetos e códigos para desenvolvimento com Arduino.</p>
-      </div>
-      <!-- Adicione mais projetos conforme necessário -->
-      <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Paradigms/blob/main/IntroducaoScala.pdf">
-        <img src="imgs/scala-cover-book1.png" alt="livro da linguagem scaala">
-      </a>
-        <h3>Introdução à Linguagem Scala</h3>
-        <p>Livro desenvolvido para disciplina de paradigmas usando LaTeX<p>
-      </div>
+          <h3>Códigos para Arduino</h3>
+          <p>Projetos e códigos para desenvolvimento com Arduino.</p>
+        </a>
+        </div>
 
 
-    </div>
-  </section>
-<script src="script.js"></script>
-  <footer>
-    <p>&copy; 2023 Marcos Bruno. Todos os direitos reservados.</p>
-  </footer>
-</body>
+      
+        <div class="projeto oculto">
+          <a href="https://github.com/MarcosBrun0/Paradigms/blob/main/IntroducaoScala.pdf" class="proj">
+          <img src="imgs/scala-cover-book1.png" alt="livro da linguagem scaala">
+          <h3>Introdução à Linguagem Scala</h3>
+          <p>Livro desenvolvido para disciplina de paradigmas usando LaTeX
+            <p>
+            </a>
+            </div>
+            
+          
+          
+          
+          </div>
+          
+          <button id="btnMostrarMais">Mostrar Mais Projetos</button>
+        <!-- Botão "Mostrar Mais" -->
+      </section>
+      <script src="script.js"></script>
+      <footer>
+        <p>&copy; 2023 Marcos Bruno. Todos os direitos reservados.</p>
+      </footer>
+    </body>
+    
 </html>
