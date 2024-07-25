@@ -1,95 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio MB</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Marcos Bruno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <nav class="header">
-    <a href="#" class="logo">Marcos Bruno</a>
-    <div class="burger">&#9776;</div>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">Sobre</a>
-      <a href="contact.html">Contato</a>
-    </div>
-  </nav>
-
-  <!-- Resto do seu HTML -->
-
-  </header>
-
-
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projetos-container">
-
-      
-      <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Python-Studies/blob/main/day28-pomodoro/main.py" class="proj">
-          <img src="imgs/pomodoro.png" alt="Pomodoro">
-          
-          <h3>Pomodoro</h3>
-          <p>Um temporizador para aumentar a produtividade de trabalho e estudo.</p>
-        </a>
-        </div>
-        
-
-
-        <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main" class="proj">
-          <img src="imgs/PasswordManager.png" alt="Gerador e Gerenciador de Senhas">
-
-          <h3>Gerador e Gerenciador de Senhas</h3>
-          <p>Ferramenta para gerar e gerenciar senhas seguras.</p>
-        </a>
-        </div>
-
-        <div class="projeto">
-          <a href="https://github.com/MarcosBrun0/Python-Studies/tree/main/day53-DataEntryJobAutomation" class="proj">
-          <img src="imgs/Dataentry.png" alt="Automação de Entrada de Dados com Python">
-          <h3>Automação de Entrada de Dados com Python</h3>
-          <p>Automatização de dados usando Python, Selenium, Bs4, e planilhas.</p>
-        </a>
-        </div>
-
-
-
-      <div class="projeto">
-        <a href="https://github.com/MarcosBrun0/Arduino/tree/main" class="proj">
-        <img src="imgs/buttons_and_buzzer.jpg" alt="Códigos para Arduino">
-          <h3>Códigos para Arduino</h3>
-          <p>Projetos e códigos para desenvolvimento com Arduino.</p>
-        </a>
-        </div>
-
-
-      
-        <div class="projeto oculto">
-          <a href="https://github.com/MarcosBrun0/Paradigms/blob/main/IntroducaoScala.pdf" class="proj">
-          <img src="imgs/scala-cover-book1.png" alt="livro da linguagem scaala">
-          <h3>Introdução à Linguagem Scala</h3>
-          <p>Livro desenvolvido para disciplina de paradigmas usando LaTeX
-            <p>
-            </a>
-            </div>
-            
-          
-          
-          
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" alt="Logo Marcos Bruno"> Marcos Bruno</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+             
+              </li>
+            </ul>
           </div>
-          
-          <button id="btnMostrarMais">Mostrar Mais Projetos</button>
-        <!-- Botão "Mostrar Mais" -->
-      </section>
-      <script src="script.js"></script>
-      <footer>
-        <p>&copy; 2023 Marcos Bruno. Todos os direitos reservados.</p>
-      </footer>
-    </body>
+        </div>
+    </nav>
+
+    <section id="introducao" class="gradient-background">
+        <div class="px-4 py-5 mb-5 text-center">
+            <img class="foto" src="img/marcos.jpeg" alt="Foto de Marcos Bruno" height="300">
+            <h1 class="display-5 fw-bold text-body-emphasis">Hi, you can call me MB</h1>
+            <div class="col-lg-6 mx-auto">
+                <p>Computer Science Student</p>
+            </div>
+        </div>
+    </section>
     
+    <h1 class="display-5 fw-bold text-body-emphasis text-center">Some Projects</h1>
+    <hr>
+
+    <section id="Projects">
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/PasswordManager.png" class="Card_IMG" alt="Password Manager">
+                    <div class="card-body">
+                      <h5 class="card-title">Password Manager</h5>
+                      <p class="card-text">A robust password generator and manager, developed using Python.</p>
+                      <a href=""><img src="img/folder2-open.svg" alt=""></a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Dataentrymac.png" class="Card_IMG" alt="Data Entry Automation">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Entry Automation</h5>
+                      <p class="card-text">Automated data entry using web scraping and APIs, designed to search for data and insert it into a spreadsheet.</p>
+                      <a href=""><img src="img/folder2-open.svg" alt=""></a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/scalabookmac.png" class="Card_IMG" alt="Scala Introduction Book" >
+                    <div class="card-body">
+                      <h5 class="card-title">Scala Introduction Book</h5>
+                      <p class="card-text">An introductory book on Scala created for my programming paradigms course, written in LaTeX.</p>
+                      <a href="https://drive.google.com/file/d/191PwNI7iOp-63IIfbZw2Mb-3lzlMnqf9/view?usp=drive_link"><img src="img/folder2-open.svg" alt=""></a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/arduinomac.png" class="Card_IMG" alt="Arduino Projects">
+                    <div class="card-body">
+                      <h5 class="card-title">Arduino Projects</h5>
+                      <p class="card-text">A repository of my hobbyist Arduino circuits and projects.</p>
+                      <a href=""><img src="img/folder2-open.svg" alt=""></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="About">
+        <h1 class="display-5 fw-bold text-body-emphasis text-center">About</h1>
+        <hr>
+        <div class="container">
+          <p>I am a passionate student, always eager to learn a variety of subjects, but focused on specializing in my field. Currently, I am pursuing a Computer Science degree at UENF. I participate in an extension project for initiation into robotics and programming, where I have had the opportunity to teach classes on computer logic, programming, algorithms, and microcontrollers in public schools in my city, together with our team.</p>
+          <p>Reading is one of my favorite pastimes, especially old books. I constantly seek to learn more about the world and myself, aiming to be someone who inspires others. I enjoy music, art, and engaging in creative activities. I believe in a world much larger than what we see, and I live for what is fair, true, and beautiful. I cherish good habits, spending time talking, playing with friends, and maintaining a fulfilling routine.</p>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1 class="display-5 fw-bold text-body-emphasis text-center">Contact</h1>
+        <hr>  
+        <div class="container text-center">
+          <a href="https://mbrunocampos@gmail.com"><img src="img/envelope.svg" height="30" alt="Email"></a>  
+          <a href="https://www.linkedin.com/in/marcos-bruno-campos-856857202"><img src="img/linkedin.svg" height="30" alt="LinkedIn"></a>  
+          <a href="https://github.com/Marcosbrun0"><img src="img/github.svg" height="30" alt="GitHub"></a>  
+          <a href="https://www.instagram.com/marcosbrun0/"><img src="img/instagram.svg" height="30" alt="Instagram"></a>  
+        </div>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="img/logo.png" height="30" alt="Logo Marcos Bruno">
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Marcos Bruno</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
